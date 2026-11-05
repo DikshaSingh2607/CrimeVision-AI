@@ -1,0 +1,224 @@
+---
+name: Obsidian & Oxide Forensic Workspace
+colors:
+  surface: '#101412'
+  surface-dim: '#101412'
+  surface-bright: '#353a37'
+  surface-container-lowest: '#0a0f0d'
+  surface-container-low: '#181d1a'
+  surface-container: '#1c211e'
+  surface-container-high: '#262b28'
+  surface-container-highest: '#313633'
+  on-surface: '#dfe4df'
+  on-surface-variant: '#dac1b9'
+  inverse-surface: '#dfe4df'
+  inverse-on-surface: '#2c322e'
+  outline: '#a28c85'
+  outline-variant: '#54433d'
+  surface-tint: '#ffb59a'
+  primary: '#ffb59a'
+  on-primary: '#591d03'
+  primary-container: '#d27957'
+  on-primary-container: '#4f1700'
+  inverse-primary: '#94492b'
+  secondary: '#d2c5a7'
+  on-secondary: '#37301a'
+  secondary-container: '#514831'
+  on-secondary-container: '#c4b799'
+  tertiary: '#b6cdb0'
+  on-tertiary: '#223521'
+  tertiary-container: '#81977d'
+  on-tertiary-container: '#1b2e1b'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbcf'
+  primary-fixed-dim: '#ffb59a'
+  on-primary-fixed: '#380d00'
+  on-primary-fixed-variant: '#763216'
+  secondary-fixed: '#efe1c1'
+  secondary-fixed-dim: '#d2c5a7'
+  on-secondary-fixed: '#211b07'
+  on-secondary-fixed-variant: '#4f462f'
+  tertiary-fixed: '#d2e9cc'
+  tertiary-fixed-dim: '#b6cdb0'
+  on-tertiary-fixed: '#0d200d'
+  on-tertiary-fixed-variant: '#384c36'
+  background: '#101412'
+  on-background: '#dfe4df'
+  surface-variant: '#313633'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-md:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+  mono-data-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  mono-data-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  mono-data-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 0.75rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.375rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+---
+
+## Brand & Style
+
+This design system establishes a high-density, analytical intelligence environment designed for digital forensics, biometric processing, evidentiary chain-of-custody tracking, and multimodal criminal investigation. The personality is authoritative, rigorously objective, subdued, and uncompromisingly utilitarian. The interface prioritizes prolonged analytical focus under demanding conditions, deliberately avoiding consumer-software tropes, synthetic neons, decorative glows, and recreational micro-interactions.
+
+The visual style merges structured intelligence editorialism with military-grade tactical utility. Precision hairline dividers, deep oxidized mineral substrates, and calculated contrast tiers replace dramatic shadows and blur layers. Visual cues are deliberate: terracotta oxide indicates critical alerts, points of interest, and primary forensic operations; muted bone and pale olive accents guide triage hierarchies; and strict monospaced data grids ensure unambiguous parsing of timestamps, biometric markers, and cryptographic hash strings. The overall emotional posture is calm, unyielding, and surgically precise.
+
+## Colors
+
+The palette is rooted in an earthy, tactical mineral spectrum dubbed Obsidian & Oxide. Layering relies on strictly sequenced surface steps to differentiate nested forensic panels without relying on visual noise.
+
+### Palette Architecture
+- **Chrome / Foundation Surface (`#1B211E`)**: Used for the deepest application chrome, root application framing, global navigation, and pinned telemetry status bars.
+- **Canvas Base (`#202522`)**: The primary workspace floor where analytical modules, timeline canvases, and dossier sheets reside.
+- **Surface Elevation 1 (`#29312C`)**: Used for secondary cards, inspector panes, and tabbed workflow regions.
+- **Surface Elevation 2 / Panel Containers (`#303B35`)**: Used for floating utility trays, active modal dialogues, contextual toolbars, and input field backings.
+- **Structural Dividers & Reticles (`#465047`)**: Hairline borders (1px) used strictly for structural separation, dossier table rows, and geospatial coordinate overlays.
+- **Text & Glyph Hierarchy**:
+  - `Main text` (`#EAE9E1`): High-legibility parchment white reserved for case summaries, metadata labels, primary metrics, and transcription output.
+  - `Secondary text` (`#A5AAA0`): Weathered sage neutral for field descriptors, inactive states, column headers, and structural metadata.
+- **Accents & Operational States**:
+  - `Primary Action / Critical Alert` (`#C16C4B`): Terracotta oxide. Signals high-priority forensic flags, facial recognition matches, destructive actions, and active recording.
+  - `Secondary Key / Verification` (`#D6C9AA`): Sand/bone. Applied to active filter tags, evidentiary citations, manual override controls, and focal cursors.
+  - `Status Normal / Validated` (`#81977D`): Muted lichen green. Indicates confirmed chain-of-custody, verified biometric checks, and running background pipelines.
+  - `Status Advisory` (`#D3A15D`): Muted amber oxide. Denotes low-confidence inferences, missing witness fragments, and ongoing forensic extraction.
+
+## Typography
+
+The type system prioritizes high-density data ingestion, compact vertical rhythm, and instant visual separation between prose and scientific instrumentation.
+
+- **Primary Interface Font**: `Inter` is configured with subtle negative tracking (`-0.01em` on headlines, `-0.005em` on small labels) to maintain crisp edges at tight line-heights.
+- **Technical Monospace Font**: `IBM Plex Mono` handles cryptographic hashes (SHA-256), latitude/longitude coordinates, millisecond-accurate video timestamps, biometric vector readings, and evidence vault identifiers. Monospace weights are kept strictly between 400 and 500 to prevent optical crowding in high-density data tables.
+- **Editorial Micro-Labels**: Metadata qualifiers, column sort tags, and status caps use `label-sm` with explicit uppercase casing and `+0.05em` letter spacing for rapid scanning across complex investigative boards.
+
+## Layout & Spacing
+
+The platform utilizes a structured, high-density fluid grid system tailored for multi-monitor workstations, command-center displays, and ruggedized investigative laptops.
+
+### Layout Model
+- **Grid Architecture**: Multi-pane split architecture with a base 12-column variable grid on large surfaces. Left/Right utility panes (such as evidence trees, entity graphs, and chain-of-custody logs) lock into fixed analytical rail widths (`280px` to `360px`), while the primary viewport dynamically flexes to host geospatial maps, surveillance feeds, or timeline graphs.
+- **Density & Padding Strategy**: Spacing values follow a conservative 4px/6px baseline module designed for low vertical footprint. Standard component padding sits tightly between `space-xs` (4px) and `space-md` (12px) to maximize on-screen analytical volume.
+
+### Breakpoints & Adaptations
+- **Desktop / Multi-Monitor (`≥ 1440px`)**: Fully expanded 3-to-4 pane interface. Central media viewer remains persistent while dual telemetry panels frame the analysis canvas. Gutters lock at `12px` (`0.75rem`).
+- **Intermediate / Field Laptop (`1024px – 1439px`)**: Side panels convert into collapsible stacked drawers with quick-toggle keyboard hotkeys. Central work region remains fluid.
+- **Compact / Tactical Mobile (`< 1024px`)**: Workspaces collapse into a single active pane governed by top-level segmented breadcrumbs (e.g., `Dossier` → `Timeline` → `Forensic Node`). Primary toolbars drop to fixed lower trays.
+
+## Elevation & Depth
+
+This system avoids expressive blur effects, diffuse colored dropshadows, or elevated floating planes. Depth is established through an austere mechanical model:
+
+- **Tonal Stepping**: Proximity and z-index are communicated purely through sequential surface luminance: `#1B211E` (base chrome) → `#202522` (canvas) → `#29312C` (card/module) → `#303B35` (hover state, popover, flyout panel).
+- **Hairline Framing**: Every container, inspector card, and data cell is bound by a crisp 1px border rendered in `#465047`. No soft alpha transitions are applied to borders.
+- **Tactical Micro-Shadows**: When context menus, inspection lenses, or verification modals require separation from underlying busy surveillance media, use a single, hard-edged technical shadow: `0 4px 12px rgba(0, 0, 0, 0.45), 0 0 0 1px #465047`.
+
+## Shapes
+
+The interface uses a tailored corner geometry that conveys industrial durability and scientific instrument precision.
+
+- **Corner Radius Scale**: Standard elements (buttons, inputs, telemetry badges, cards, video timeline markers) use a baseline radius between `6px` and `8px`. Pill shapes (`rounded-full`) and completely unrounded harsh 90-degree corners are explicitly prohibited.
+- **Nested Geometries**: Interior controls sitting inside container panels inherit a consistent `6px` radius, while exterior frame shells use `8px`. This maintains concentric visual harmony throughout nested data tables and inspector widgets.
+- **Bounding Boxes & Overlays**: Video annotation boxes, facial mesh anchors, and geospatial target brackets utilize sharp or slightly rounded corners (`2px` to `4px`) with hairline dashed or continuous strokes in `#C16C4B` or `#D6C9AA`.
+
+## Components
+
+### Buttons & Operational Triggers
+- **Primary / Action (`Terracotta`)**: Background `#C16C4B`, label `#EAE9E1`, hairline border `1px solid transparent`. Hover state shifts background to `#A85A3C`. Focus ring uses an offset `1px solid #D6C9AA`.
+- **Secondary / Panel Control**: Background `#29312C`, border `1px solid #465047`, text `#EAE9E1`. Hover shifts background to `#303B35` with border brightening to `#5E6C60`.
+- **Destructive / Flag Evidence**: Background `transparent`, border `1px solid #C16C4B`, text `#C16C4B`. Hover fills with `rgba(193, 108, 75, 0.15)`.
+- **Dimensions**: Compact heights: Small (`28px`), Standard (`34px`). Padding: `0 12px`. Never use pill buttons.
+
+### Chips, Badges & Triage Flags
+- **Forensic Confidence Chips**: Background `#202522`, border `1px solid #465047`, text in `IBM Plex Mono` (11px). Includes a leading 6px circular indicator:
+  - Confirmed match: `#81977D`
+  - Probabilistic match: `#D3A15D`
+  - High alert / Anomaly: `#C16C4B`
+- **Metadata Filters**: Height `24px`, background `#29312C`, border `1px solid #465047`, text `#D6C9AA`. Selected state applies border `1px solid #D6C9AA` with a subtle `#303B35` fill.
+
+### Input Fields & Search Bars
+- **Text & Monospace Inputs**: Height `32px` to `36px`. Background `#1B211E`, border `1px solid #465047`, text `#EAE9E1`, placeholder `#A5AAA0`. Focus state replaces border with `#D6C9AA` (zero glow rings).
+- **Forensic Query Bar**: Integrated terminal-style prompt with leading monospace database glyphs, trailing clear/execute hotkey indicators (`[ESC]`, `[ENTER]`) in `#A5AAA0`.
+
+### Data Grids & Evidence Tables
+- **Table Headers**: Background `#1B211E`, height `30px`, text `#A5AAA0`, uppercase `11px`, letter-spacing `+0.05em`, bottom border `1px solid #465047`.
+- **Table Rows**: Base background `#202522`, alternating row background `#242A26`, row border `1px solid rgba(70, 80, 71, 0.5)`. Row hover uses `#29312C`. Selected row uses a left border accent `3px solid #C16C4B` with background `#303B35`.
+
+### Checkboxes & Toggle Switches
+- **Checkboxes**: Width/height `14px`, corner radius `3px`, border `1px solid #465047`, background `#1B211E`. Checked state fills with `#C16C4B` displaying a `#EAE9E1` check icon.
+- **Segmented Mode Switchers**: Recessed tray in `#1B211E`, border `1px solid #465047`, height `28px`. Selected segment elevated in `#303B35` with text `#EAE9E1` and subtle border `1px solid #465047`.
+
+### Forensic Dossier Cards & Panels
+- **Structure**: Surface `#29312C`, border `1px solid #465047`, radius `6px` to `8px`. Header bar height `36px` with surface `#202522`, separated by a bottom border `1px solid #465047`.
+- **Card Metadata Footer**: Displayed in `IBM Plex Mono` (11px) showing checksum verification status, audit user, and UTC timestamp.
+
+### Specialized Investigative Modules
+- **Timeline Scrub Bar**: Track height `6px` in `#1B211E` with hairline border `#465047`. Event tick marks rendered in `#C16C4B` (critical incidents) and `#D6C9AA` (chatter / telemetry). Current scrubber head rendered as a sharp inverted triangle in `#D6C9AA`.
+- **Bounding Box Annotation**: Hairline `1.5px solid #C16C4B` overlay with corner crosshairs. Detached floating tag in `#1B211E` with `11px` monospace confidence score (`98.4% CONF`) and entity ID.

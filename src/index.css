@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-chrome: #1b211e;
+    --bg-canvas: #202522;
+    --bg-surface-1: #29312c;
+    --bg-surface-2: #303b35;
+    --border-reticle: #465047;
+    --border-subtle: rgba(70, 80, 71, 0.4);
+    --text-primary: #eae9e1;
+    --text-secondary: #a5aaa0;
+    --accent-oxide: #c16c4b;
+    --accent-oxide-hover: #a85a3c;
+    --accent-sand: #d6c9aa;
+    --accent-lichen: #81977d;
+    --accent-amber: #d3a15d;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #101412;
+    color: #eae9e1;
+    letter-spacing: -0.005em;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+/* Custom Tactical Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181d1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #465047;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a5aaa0;
+}
+
+/* High-Density Data Grid Reticle */
+.reticle-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(70, 80, 71, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(70, 80, 71, 0.15) 1px, transparent 1px);
+}
+
+/* Print Optimization for Forensic Reports */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .report-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}
